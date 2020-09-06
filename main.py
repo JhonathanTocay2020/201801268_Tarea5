@@ -7,10 +7,12 @@ def main():
     cadena3 = 'servidor3'
     cadena4 = '__s1'
     print("-------------------------------")
-    print(str(AFD(cadena1)))
-    print(str(AFD(cadena2)))
-    print(str(AFD(cadena3)))
-    print(str(AFD(cadena4)))
+    print("Resultado Cadena 1")
+    AFD(cadena1)
+    print("Resultado Cadena 2")
+    AFD(cadena2)
+    #AFD(cadena3)
+    #AFD(cadena4)
 
 def AFD(cadena):
     estado = 0
@@ -48,7 +50,6 @@ def AFD(cadena):
                 return
         elif (estado == 4):
             return
-
     print("cadena valida")
 
 if __name__ == '__main__':
